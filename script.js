@@ -11,7 +11,7 @@ const ramos = [
   { id: "org1", nombre: "Química Orgánica I", requisitos: ["quimica1"], correquisitos: [], semestre: 2 },
   { id: "morfo", nombre: "Morfología", requisitos: ["biocel"], correquisitos: [], semestre: 2 },
   { id: "fisica", nombre: "Física", requisitos: ["algebra"], correquisitos: [], semestre: 2 },
-  { id: "ingles1", nombre: "Inglés I", requisitos: [], correquisitos: [], semestre: 2 },
+  { id: "ingles1", nombre: "Inglés I", requisitos: ["habilidades"], correquisitos: [], semestre: 2 },
 
   // SEMESTRE 3
   { id: "fisicoq", nombre: "Fisicoquímica Aplicada", requisitos: ["fisica", "quimica2"], correquisitos: [], semestre: 3 },
