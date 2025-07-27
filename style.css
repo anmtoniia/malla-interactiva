@@ -69,11 +69,11 @@ h1 {
 
 /* Ramos aprobados */
 .ramo.aprobado {
-  background: #e0f9e0;  
-  border-color: #58b368;
-  color: #205f2c;
-  text-decoration: line-through;  
-  opacity: 0.8;        
+  background: #ffb6c1;             
+  border-color: #d6336c;         
+  color: #8b1a3f;                 
+  text-decoration: line-through;   
+  opacity: 0.95;                      
 }
 
 /* Animación opcional */
