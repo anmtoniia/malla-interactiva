@@ -1,31 +1,59 @@
 body {
   font-family: sans-serif;
-  background: #f9f9f9;
   padding: 20px;
+  background: #f9f9f9;
 }
 
-#malla {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#reset {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.semestre {
+  display: inline-block;
+  vertical-align: top;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 250px;
+}
+
+.semestre h3 {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .ramo {
   border: 1px solid #333;
-  padding: 10px;
-  width: 200px;
-  text-align: center;
-  background-color: #eee;
+  padding: 8px;
+  background: #f0f0f0;
+  margin: 6px 0;
+  border-radius: 6px;
   cursor: pointer;
-  border-radius: 8px;
+  transition: all 0.3s ease;
 }
 
-.bloqueado {
-  background-color: #ccc;
+.ramo.bloqueado {
+  background: #ccc;
   color: #888;
-  cursor: not-allowed;
+  pointer-events: none;
+  border: 1px dashed #999;
 }
 
-.aprobado {
-  background-color: #90ee90;
+.ramo.aprobado {
+  background: #a0e6a0;
+  border-color: #2ecc71;
 }
