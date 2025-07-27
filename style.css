@@ -50,7 +50,7 @@ h1 {
 .ramo {
   border: 2px solid #d6336c;
   padding: 10px;
-  background: #ffe6ec;
+  background: #ffe4ec; /* baby pink */
   margin: 8px 0;
   border-radius: 12px;
   cursor: pointer;
@@ -69,11 +69,11 @@ h1 {
 
 /* Ramos aprobados */
 .ramo.aprobado {
-  background: #ffc1d9;           
-  border-color: #d6336c;        
-  color: #8b1a3f;                 
-  text-decoration: line-through; 
-  opacity: 1;                                 
+  background: #e0f9e0;             /* verde más claro */
+  border-color: #58b368;
+  color: #205f2c;
+  text-decoration: line-through;   /* ← tachado */
+  opacity: 0.8;                    /* ← más clarito visualmente */                   
 }
 
 /* Animación opcional */
